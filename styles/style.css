@@ -74,10 +74,6 @@ ol {
   column-gap: 30px;
 }
 
-.content__list-container {
-  margin-top: 26px;
-}
-
 .result {
   grid-area: 1 / 1 / 1 / 1;
   align-self: end;
