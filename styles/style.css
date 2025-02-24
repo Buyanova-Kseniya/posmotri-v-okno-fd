@@ -104,6 +104,7 @@ ol {
   height: 298px;
   overflow: auto;
   position: relative;
+  margin-top: 26px;
 }
 
 .content__list-container::-webkit-scrollbar {
