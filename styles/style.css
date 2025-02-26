@@ -82,10 +82,9 @@ ol {
 .search-form {
   display: flex;
   gap: 40px;
-  align-items: start;
+  align-items: center;
   width: 100%;
   height: auto;
-  margin-bottom: 5px;
 }
 
 .content__details {
