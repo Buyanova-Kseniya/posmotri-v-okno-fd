@@ -1,4 +1,4 @@
-*,
+ult*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -121,6 +121,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   align-items: center;
+  margin-right: 3px;
 }
 
 .content__video-card {
@@ -144,6 +145,7 @@ ol {
   block-size: 100%;
   inline-size: 100%;
   position: relative;
+  margin-bottom: 12px;
 }
 
 .result__video {
@@ -246,13 +248,15 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  display: block;
+  max-width: 196px;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
-  text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
@@ -339,4 +343,8 @@ ol {
 
 .content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
