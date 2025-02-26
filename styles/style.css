@@ -82,7 +82,7 @@ ol {
 .search-form {
   display: flex;
   gap: 40px;
-  align-items: start;
+  align-items: end;
   width: 100%;
   height: auto;
 }
@@ -284,7 +284,6 @@ ol {
 
 .search-form__submit-button {
   align-self: flex-end;
-  margin-bottom: 4px;
 }
 
 .more-button {
