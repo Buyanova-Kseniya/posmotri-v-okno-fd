@@ -1,4 +1,4 @@
-ult*,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -82,7 +82,7 @@ ol {
 .search-form {
   display: flex;
   gap: 40px;
-  align-items: end;
+  align-items: start;
   width: 100%;
   height: auto;
 }
@@ -142,10 +142,10 @@ ol {
 
 
 .result__video-container {
+  margin-bottom: 16px;
   block-size: 100%;
   inline-size: 100%;
   position: relative;
-  margin-bottom: 12px;
 }
 
 .result__video {
@@ -207,7 +207,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 
@@ -239,6 +239,10 @@ ol {
 .content__card-link {
   color: white;
   text-decoration: none;
+}
+
+.content__card-link_current {
+  background-color: #545050
 }
 
 .content__video-card-description-container {
@@ -287,6 +291,7 @@ ol {
 
 .search-form__submit-button {
   align-self: flex-end;
+  margin-bottom: 4px;
 }
 
 .more-button {
@@ -343,8 +348,4 @@ ol {
 
 .content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
-}
-
-.content__card-link_current {
-  background-color: #545050;
 }
