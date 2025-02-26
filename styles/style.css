@@ -85,6 +85,7 @@ ol {
   align-items: start;
   width: 100%;
   height: auto;
+  margin-bottom: 5px;
 }
 
 .content__details {
@@ -142,7 +143,7 @@ ol {
 
 
 .result__video-container {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   block-size: 100%;
   inline-size: 100%;
   position: relative;
