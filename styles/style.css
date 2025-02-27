@@ -237,6 +237,7 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   color: white;
   text-decoration: none;
 }
